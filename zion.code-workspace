@@ -1,0 +1,41 @@
+{
+  "folders": [
+    {
+      "name": "root",
+      "path": "."
+    },
+    {
+      "name": "client",
+      "path": "client/"
+    },
+    {
+      "name": "WordPress",
+      "path": "wp/app/public"
+    },
+    {
+      "name": "Themes",
+      "path": "wp/app/public/wp-content/themes"
+    },
+    {
+      "name": "Plugins",
+      "path": "wp/app/public/wp-content/plugins"
+    }
+  ],
+  "settings": {
+    "files.autoSave": "off",
+    "eslint.enable": true,
+    "eslint.alwaysShowStatus": true,
+    "eslint.packageManager": "yarn",
+    "stylelint.enable": true,
+    "css.validate": false,
+    "scss.validate": true,
+    "files.exclude": {
+      "**/node_modules": true
+    },
+    "px2rem-plus.base": 16,
+    "px2rem-plus.comments": true,
+    "editor.codeActionsOnSave": {
+      "source.fixAll.eslint": true
+    },
+  }
+}
